@@ -745,7 +745,7 @@ function flipCard() {
     flipped = true;
   } else {
     document.getElementById("cardScene").classList.remove("flipped");
-    document.getElementById("actions").style.display = "none";
+    // keep actions visible so Know It / Still Learning work from the front too
     flipped = false;
   }
 }
